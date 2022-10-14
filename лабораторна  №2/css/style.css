@@ -1,0 +1,228 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+p {
+    font-family: 'Lucida Sans Regular',   sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #af918b88;
+    font-family:'Lora', serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.header {
+    background: #ECDAD6;
+}
+
+.header__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__title-wellcome {
+    color: #ECDAD6;
+}
+
+.header__logo div {
+    height: 32px;
+    width: 30.33333396911621px;
+    left: 30.3330078125px;
+    top: 0px;
+    border-radius: 0px;
+    
+}
+
+.header__logo {
+    display:flex;
+    align-items: center;
+    margin-right: 145px;
+    padding: 10px;
+}
+
+.header__logo-green{
+    background-color: green;
+}
+
+.header__logo-white {
+    background-color:  white;
+}
+
+.header__logo-red {
+    background-color: red;
+}
+
+
+.header__login {
+    padding-top: 12px;
+    margin-right: 15px;
+}
+
+.menu {
+    padding-top: 20px;
+}
+
+h2, h3{
+    font-family:'Lora', serif;
+    color: #606060;
+}
+
+  ul {
+    list-style: none; 
+    margin: 0 auto;
+}
+
+  a {
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    transition: .5s linear;
+}
+
+nav {
+    display: block;
+    width: 100%;
+}
+
+.menu ul {
+    padding: 1em 0;
+    background: #ECDAD6;
+}
+
+.menu a {
+    padding: 1em;
+    background: rgba(177, 152, 145, .3);
+    color: #695753;
+}
+
+  .menu a:hover {
+    background: #b19891;
+}
+
+  .menu li {
+    display: inline;
+    margin-left: 100px;
+}
+
+  .menu h3 {
+    display: flex;
+    justify-content: center;
+}
+
+  .menu__search {
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+    margin-right: 20px;
+    padding: 1em;
+}
+
+.menu__search button:hover {
+    background: #b19891;
+    transition: .5s linear;
+}
+
+.menu__search input {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.menu__search-input {
+    margin-top: 10px;
+}
+
+.button {
+    border-radius: 10px ;
+}
+
+/* .table {
+    width: 35%;
+} */
+
+.about__country {
+    display: block;
+    margin: 20px;
+}
+.about__country div {
+    width: 58%;
+    text-align:justify;
+    float: left;
+}
+
+.places {
+    text-align:justify;
+    margin-left: calc(58% + 20px);
+}
+
+
+.food {
+    display: block;
+    margin: 20px;
+}
+
+.food div {
+    width: 58%;
+    text-align:justify;
+    float: left;
+}
+
+.price__sleep {
+    text-align:justify;
+    margin-left: calc(58% + 20px);
+}
+
+.video {
+    text-align:justify;
+    margin-left: calc(58% + 20px);
+}
+
+.add__article {
+    text-align:justify;
+    margin-left: calc(58% + 20px);
+}
+
+.input__article{
+    display: flex;
+    
+}
+
+.input__article input{
+    margin: 15px;
+}
+
+.footer {
+    display: block;
+    padding: 15px;
+    margin-top: 150px;
+    text-align:center;
+    background-color: #ECDAD6;
+    overflow:hidden;
+}
+
+
+/* all style for photos */
+
+.photo__italy {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.photo__parlament {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.photo__of-pasta {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.photo__of-pizza {
+    margin-left: 100px;
+    margin-top: 10px;
+}

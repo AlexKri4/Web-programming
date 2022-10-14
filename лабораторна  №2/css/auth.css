@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+div {
+    font-family: 'Lucida Sans Regular', sans-serif;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.auth {
+    
+    background-image: url('../img/cover.png');
+    width: 1263px;
+    height: 577px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.auth__form {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.auth__form label {
+    margin-right: 15px;
+}
