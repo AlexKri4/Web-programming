@@ -1,0 +1,28 @@
+{
+  "name": "lab_5",
+  "version": "1.0.0",
+  "description": "node.js test crud methods",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexKri4/Web-programming"
+  },
+  "keywords": [
+    "contacts",
+    "contact",
+    "node",
+    "api"
+  ],
+  "author": "Kri4ik",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.25.3",
+    "sqlite3": "^5.1.2"
+  }
+}
