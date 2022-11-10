@@ -1,0 +1,44 @@
+body {
+    background-color: bisque;
+}
+
+
+
+.photo__holder-1 {
+    padding-left: 500px;
+}
+
+.first_h {
+    color: blue;
+}
+
+.photo-1 {
+    border: solid 10px rgb(219, 10, 45);
+
+}
+
+.photo__holder-2 {
+    padding-left: 350px;
+}
+
+.second_h {
+    color: rgb(30, 231, 60);
+}
+
+.photo-2 {
+    border: dashed 10px rgb(17, 209, 68);
+
+}
+
+.photo__holder-3 {
+    padding-left: 200px;
+}
+
+.third_h {
+    color: rgb(224, 111, 19);
+}
+
+.photo-3 {
+    border: ridge 15px rgb(235, 39, 163);
+
+}
